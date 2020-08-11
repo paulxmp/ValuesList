@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ValuesList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Values List</string>
+    <string name="nav_header_subtitle">ValuesList@valueslist.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_values">Values</string>
+    <string name="menu_businesses">Businesses</string>
+    <string name="menu_organizations">Organizations</string>
+    <string name="menu_charities">Charities</string>
+
+    <!-- Parse -->
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">VFDHAeD1Gzt7eKd3LQDyQu7IYcln5W50DG121E23</string>
+    <string name="back4app_client_key">HPOIcVbPh1dDK5ymgVPLn6QuRjcTwGuisK0K0Wii</string>
+
+</resources>

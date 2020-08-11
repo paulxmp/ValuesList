@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.nomadsoftwareconsultants.valueslist.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_values"
+        android:name="com.nomadsoftwareconsultants.valueslist.ui.values.ValuesFragment"
+        android:label="@string/menu_values"
+        tools:layout="@layout/fragment_values" />
+
+    <fragment
+        android:id="@+id/nav_businesses"
+        android:name="com.nomadsoftwareconsultants.valueslist.ui.businesses.BusinessesFragment"
+        android:label="@string/menu_businesses"
+        tools:layout="@layout/fragment_businesses" />
+
+    <fragment
+        android:id="@+id/nav_charities"
+        android:name="com.nomadsoftwareconsultants.valueslist.ui.charities.CharitiesFragment"
+        android:label="@string/menu_charities"
+        tools:layout="@layout/fragment_charities" />
+    <fragment
+        android:id="@+id/nav_organizations"
+        android:name="com.nomadsoftwareconsultants.valueslist.ui.organizations.OrganizationsFragment"
+        android:label="@string/menu_organizations"
+        tools:layout="@layout/fragment_organizations" />
+</navigation>
